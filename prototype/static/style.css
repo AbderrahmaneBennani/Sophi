@@ -1,0 +1,40 @@
+
+
+.chat-box{
+    max-height: 500px;
+    min-height: 500px;
+    margin-bottom: 10px;
+    overflow:scroll;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* * {
+    background-color: #FF4B5D;
+} */
+
+.message-container-sophie{
+    display: flex;
+}
+
+.message-box-sophie {
+    border-radius: 5px;
+    background-color: darkgrey;
+    padding: 10px
+}
+
+.message-container-user {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message-box-user{
+    border-radius: 5px;
+    background-color: #FF4B5D;
+    color: white;
+    padding: 10px
+}
+
+.logo {
+    height: 50px;
+    width: 200px;
+}
